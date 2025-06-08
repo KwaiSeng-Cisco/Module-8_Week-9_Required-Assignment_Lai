@@ -1,0 +1,36 @@
+1. Understand React and Its Advantages    
+
+a) Write a brief explanation of React’s core features: component-based architecture, Virtual DOM, and unidirectional data flow. 
+
+React's Component Base Architecture
+
+ - Composed  user interfaces into reusable, self-contained components. 
+ - Each component has its own logic, UI, and style.
+ - Provides benefit of modularity, reusability, and easier debugging. 
+ - This architecture leads to more maintainable and scalable application
+
+
+React's Virtual DOM
+
+- Virtual is a virtual represntaition of a real DOM
+- Virtual DOM is a lightweight, in memory representation of the real dom
+- Each virtaul DOM can be updated quickly, independently, without any manipulation of the actual DOM
+- The UI rpresented get synced to the real DOM 
+
+React's unidirectional Data Flow 
+
+- Data moves from the parent to the child cpmponents via props.
+- States are initiated from the parent and propagated downwards
+
+b) Discuss why these features make React ideal for building modern web applications.
+
+A few benfits that we can get out of here
+
+- Component bases architectute enable codes to be modular, reusable and easirt to debug
+
+- Virtual Dom enables a "Divide and Concur" approavh of orgainizing the UI into specific areas of concerns; 
+  each area of concerns can be reflected in a dynamic manner, without impacting the actual DOM.
+
+- Unidirectional flows ensures that child component cannot update the data on their own, 
+  this helps to ensure clean data flow, which lead to predictable state management, simplified debugging, 
+  and enhances reusrabilirt and inmproves sclability.
