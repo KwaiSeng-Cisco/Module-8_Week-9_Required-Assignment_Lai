@@ -8,7 +8,7 @@ b) Discuss why these features make React ideal for building modern web applicati
 
 a) Create an HTML file and include CDN links for React and ReactDOM. 
 
-b) Add a <div> with an id of "root" in the HTML body. 
+b) Add a "<"div">" with an id of "root" in the HTML body. 
 
 c) Write a simple React component inside a <script> tag and use ReactDOM.render() to render it to the page. 
 
